@@ -1,0 +1,23 @@
+{
+  "name": "covid-tracker",
+  "version": "1.0.0",
+  "description": "This is a project about a covid tracker for countries around the world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tulio-Rangel/covid-tracker.git"
+  },
+  "keywords": [
+    "covid",
+    "tracker"
+  ],
+  "author": "Tulio Rangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tulio-Rangel/covid-tracker/issues"
+  },
+  "homepage": "https://github.com/Tulio-Rangel/covid-tracker#readme"
+}
