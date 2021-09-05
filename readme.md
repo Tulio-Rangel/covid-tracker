@@ -1,0 +1,1 @@
+This is a project about a covid cases tracker for countries around the world.
