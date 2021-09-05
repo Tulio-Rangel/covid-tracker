@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Track Covid Cases Now</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(13, 197, 173);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 0;
+}
+.searchBx{
+    position: relative;
+    background-color: #fff;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px #00b3ff,
+                 0 0 10px #00b3ff,
+                 0 0 10px #00b3ff,
+                 0 0 10px #00b3ff,
+                 0 0 10px #00b3ff;
+}
+.searchBx:hover > .searchTxt{
+    width: 240px;
+    text-align: center;
+    color: #00b3ff;
+    font-size: 20px;
+    padding: 0 6px;   
+}
+.searchBtn{
+    color: #fff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.searchTxt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #000;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+    justify-content:center;
+    align-items:center;
+}
+h1 img{
+    width: 100px;
+    height: 50px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 25%;
+    margin: 20px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+.box .subtitle, .data{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 2px;
+    justify-content:center;
+    align-items:center;
+}
+.data{
+    color: #fff;
+}
+.death{
+    color: red;
+}
+.total{
+    color: lightsalmon;
+}
+.recovered{
+    color: rgb(21, 231, 21);
+}
+.test{
+    color: rgb(0, 255, 85);
+}
+.active{
+    color: rgb(255, 230, 0);
+}
+.critical{
+    color: rgb(194, 160, 8);
+}
+#flag{
+    display: none;
+}
+</style>
+</head>
+<body>
+    
+</body>
+</html>
