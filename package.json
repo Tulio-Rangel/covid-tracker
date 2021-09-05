@@ -2,7 +2,7 @@
   "name": "covid-tracker",
   "version": "1.0.0",
   "description": "This is a project about a covid tracker for countries around the world",
-  "main": "app.js",
+  "main": "app.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
